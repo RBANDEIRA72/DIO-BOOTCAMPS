@@ -1,4 +1,6 @@
-Desafios/Desafio2.java
- Desafios.Desafio2
 Desafios/Desafio3.java
  Desafios.Desafio3
+Desafios/Desafio2.java
+ Desafios.Desafio2
+Desafios/Desafio1.java
+ Desafios.Desafio1
