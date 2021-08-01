@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="BANDEIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-06 11:32:10 "/>
+        <attribute name="created" value="QkFOREVJUkE7REVTS1RPUC1TMExEUUI4OzIwMjEtMDctMDY7IjA5OjQ3OjM3ICI7MjgzMA=="/>
+        <attribute name="edited" value="QkFOREVJUkE7REVTS1RPUC1TMExEUUI4OzIwMjEtMDctMDY7IjExOjMyOjEwICI7MTsyOTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <output expression="&quot;Soma das Notas = &quot; &amp; nota1 + nota2+nota3+nota4" newline="True"/>
+            <output expression="&quot;M&#233;dia = &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
