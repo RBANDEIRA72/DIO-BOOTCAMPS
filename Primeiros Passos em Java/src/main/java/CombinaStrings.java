@@ -14,23 +14,23 @@ public class CombinaStrings {
 
         for (int i = 0; i < N; i++) {
 
-            String resultado = "";
             String letrasRestantes = "";
+            String resultado = "";
 
             String str = br.readLine();
             String s[] = str.split(" ");
 
-            if ( s[0].length() < s[1].length() ) {
+            if (s[0].length() < s[1].length()) {
                 tamanho = s[0].length();
-                letrasRestantes = s[1].substring(tamanho,s[1].length());
+                letrasRestantes = s[1].substring(tamanho, s[1].length());
 
             } else {
                 tamanho = s[1].length();
-                letrasRestantes = s[0].substring(tamanho,s[0].length());
+                letrasRestantes = s[0].substring(tamanho, s[0].length());
             }
 
-            for (  int j=0; j < tamanho ; j++) {
-			    resultado += s[0].substring(j,j+1) + s[1].substring(j,j+1);
+            for (int j = 0; j < tamanho; j++) {
+                resultado += s[0].substring(j, j + 1) + s[1].substring(j, j + 1);
             }
 
             resultado = resultado + letrasRestantes;
