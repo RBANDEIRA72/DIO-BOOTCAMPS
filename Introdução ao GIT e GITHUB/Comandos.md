@@ -53,5 +53,21 @@ $ git commit -m "MEBSAGEN DE TEXTO"
 - O nome **origin** poderia ser **QUALQUER** nome, por padrao se utiliza o nome **origin** para identificar a **URL** cadastrada, para nao ter que ficar digitando a url novamente, agora ela passaria a ser chamada de **origin**;
 - **git push origin master**  - **Empurrar (push)** os commit para o repositório **origin** 
 
+  
 
+  
+
+  ## [Usando um token na linha de comando](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line)
+
+  Depois de ter um token, você pode inseri-lo em vez de sua senha ao executar operações Git sobre HTTPS.
+
+  Por exemplo, na linha de comando, você digitaria o seguinte:
+
+  ```shell
+  $ git clone https://github.com/username/repo.git
+  Username: your_username
+  Password: your_token
+  ```
+
+  
 
