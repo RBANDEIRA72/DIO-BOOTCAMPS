@@ -1,14 +1,16 @@
 Desafios/Desafio1.java
  Desafios.Desafio1
+CombinaStrings.java
+ CombinaStrings
 DesafiosEveris/CalculaDivisores.java
  DesafiosEveris.CalculaDivisores
 DesafiosEveris/RespostaDeTheon.java
  DesafiosEveris.RespostaDeTheon
 DesafiosEveris/CalculaAtraso.java
  DesafiosEveris.CalculaAtraso
-Desafios/Desafio2.java
- Desafios.Desafio2
 Desafios/Desafio3.java
  Desafios.Desafio3
-CombinaStrings.java
- CombinaStrings
+Desafios/Desafio2.java
+ Desafios.Desafio2
+DesafiosEveris/Vetores.java
+ DesafiosEveris.Vetores
