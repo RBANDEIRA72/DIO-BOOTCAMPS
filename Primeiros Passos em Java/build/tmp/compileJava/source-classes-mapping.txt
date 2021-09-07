@@ -14,3 +14,5 @@ Desafios/Desafio2.java
  Desafios.Desafio2
 DesafiosEveris/Vetores.java
  DesafiosEveris.Vetores
+DesafiosEveris/EvitandoChuva.java
+ DesafiosEveris.EvitandoChuva
